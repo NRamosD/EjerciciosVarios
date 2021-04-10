@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repetición</title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="../../css/exercisestyles.css">
+
+    <!--Librerias-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container-fluid" id="navegacion">
+    <div class="row justify-content-between p-3">
+      <div class="col-2">
+        <a href="../Repeticion/Ejercicio2.html"><strong>Anterior</strong></a>
+      </div>
+      <div class="col-2 text-end">
+        <a href="../Repeticion/Ejercicio4.html"><strong>Siguiente</strong></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid pt-sm">
+      <div class="row justify-content-between">
+          <div class="col-md-4 px-lg-5 pt-lg-4 pb-lg-3">
+            <p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Ejercicio #3
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Confeccione un programa que imprima todos los cubos Narcisitas en un intervalo.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 px-lg-5 pt-lg-4 pb-lg-3 ">
+            <button class="btn btn-primary" type="button" >
+              <a href="../index.html" style="text-decoration: none; color: white;"><strong>INICIO</strong></a>
+            </button>
+          </div>
+       </div>
+    </div>
+    <h1>NÚMEROS NARCICISTAS</h1>
+    <div class="ejer-img">
+        <img src="../../img/narciscistas.jpg" alt="un poste con su sombra" id="imgEjercicio">
+    </div>
+    <div class="container pb-3">
+      <div class="row">
+        
+        <div class="col-md-4 m-auto">
+          <form action="">
+            <div>
+            <label for="num1">Inicio del intervalo:</label>
+            <input type="number" name="" id="num1" required placeholder="Ingrese el número">
+            </div>
+            <div>
+                <label for="num2">Fin del intervalo:</label>
+                <input type="number" name="" id="num2" required placeholder="Ingrese el número">
+                </div>
+          </form>
+        </div>
+        <div class="col-md-4 px-5 pt-5 m-auto">
+            <button type="button" class="btn btn-outline-primary" onclick="narcicistas()">BUSCAR</button>
+        </div>
+        <div class="col-md-4 m-auto">
+          <p>Los números narcicistas en el intervalo son:</p>
+          <h3 id="respuesta">...</h3>
+        </div>
+      </div>
+    </div> 
+    <footer>
+        <section class="social">
+            <div class="links">
+              <a href="https://facebook.com">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/nixramosd/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://linkdin.com">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+        </section>
+        <div>
+            <p>Ejercicios realizados por NIXON RAMOS</p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="../../js/repeticion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

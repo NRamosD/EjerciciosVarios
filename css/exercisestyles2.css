@@ -1,0 +1,146 @@
+/*All*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body{
+    background: linear-gradient(-45deg, #ffffff, #bdbdbd, #b4b0b0, #ffffff);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: var(--bs-white);
+}
+
+#navegacion{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: var(--bs-white);
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+.col-2 a{
+    text-decoration: none;
+    color: white
+}
+a{
+   text-decoration: none; 
+}
+.orden{
+    width: 50%;
+    margin: 20px 10px;
+}
+.ejer-img{
+    display: flex;
+    justify-content: center;
+    margin: 20px 150px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+nav a{
+   text-decoration: none; 
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Inputs*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.inputs{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 100px;
+    background-color: chartreuse;
+    position: relative;
+    padding: 30px;
+}
+label{
+    font-size: 20pt;
+}
+input{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 17pt;
+    width: 200px;
+}
+#altura{
+    margin-left: 45px;
+}
+
+button{
+    margin-left: 60px;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+}
+
+.inputs div{
+    padding: 10px 0;
+}
+.inputs-in{
+    display: flex;
+}
+
+/*Respuesta*/
+.div-resp{
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    width: 300px;
+    height: auto;
+    
+}
+.div-resp p{
+    
+    font-size: 15pt;
+}
+
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    display: block;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: var(--bs-white);
+}
+i{
+    font-size: 3rem;
+    color: #fff;
+    margin: 0 20px;
+}
+footer p{
+    margin: 10px 0;
+    color: white;
+}

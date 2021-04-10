@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineales</title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="../../css/exercisestyles.css">
+
+    <!--Librerias-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container-fluid" id="navegacion">
+    <div class="row justify-content-between p-3">
+      <div class="col-2">
+        <a></a>
+      </div>
+      <div class="col-2 text-end">
+        <a href="../Lineales/Ejercicio2.html"><strong>Siguiente</strong></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid pt-sm">
+      <div class="row justify-content-between">
+          <div class="col-md-4 px-lg-5 pt-lg-4 pb-lg-3">
+            <p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Ejercicio #1
+              </button>
+              
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Conocida la altura(h) de un poste y el largo de la sombra de este proyectada sobre 
+              la acera(s),a una hora determinada del día, haga un programa que calcule e imprima 
+              (grados, minutos y segundos), el ángulo de incidencia del sol en ese momento.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 px-lg-5 pt-lg-4 pb-lg-3 ">
+            <button class="btn btn-primary" type="button" >
+              <a href="../index.html" style="text-decoration: none; color: white;"><strong>INICIO</strong></a>
+            </button>
+          </div>
+       </div>
+    </div>
+    <h1>ÁNGULO DE INCIDENCIA DEL SOL</h1>
+    <div class="ejer-img">
+        <img src="../../img/sombraproyectadaporsol.PNG" alt="un poste con su sombra" id="imgEjercicio">
+    </div>
+    <div class="container pb-3">
+      <div class="row">
+        <div class="col-md-4 px-5">
+          <form action="">
+            <div>
+            <label for="base">Longitud de la sombra:</label>
+            <input type="number" name="" id="base" required placeholder="Sombra">
+            </div>
+            <div>
+            <label for="altura">Longitud del poste:</label>
+            <input type="number" name="" id="altura" required placeholder="Longitud del poste">
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4 px-5 pt-5 m-auto">
+          <button class="btn btn-outline-primary" type="button" onclick="elevacionDelSol()">Calcular</button>
+        </div>
+        <div class="col-md-4 m-auto">
+          <p>La respuesta es:</p>
+          <h3 id="respuesta">...</h3>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+        <section class="social">
+            <div class="links">
+              <a href="https://facebook.com">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/nixramosd/">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://linkdin.com">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+        </section>
+        <div>
+            <p>Ejercicios realizados por NIXON RAMOS</p>
+            <p>Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="../../js/lineales.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

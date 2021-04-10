@@ -1,0 +1,186 @@
+/*All*/
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    display: block;
+    align-content: flex-end;
+    text-align: right;
+    padding: 30px;
+    background-color: blueviolet;
+}
+nav ul li{
+    font-size: 16pt;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body{
+    background: linear-gradient(-45deg, #636363, #ffffff, #b4b0b0, #ffffff);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: var(--bs-white);
+}
+
+#navegacion{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: var(--bs-white);
+}
+
+.ejer-img{
+    display: flex;
+    justify-content: center;
+    margin: 20px 150px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.col-2 a{
+    text-decoration: none;
+    color: white
+}
+a{
+   text-decoration: none; 
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Inputs*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+
+input[type=number] { -moz-appearance:textfield; }
+
+.inputs{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 100px;
+    background-color: chartreuse;
+    position: relative;
+    padding: 30px;
+}
+label{
+    font-size: 20pt;
+}
+input{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 17pt;
+    width: 200px;
+}
+/*
+#altura{
+    margin-left: 45px;
+}*/
+
+button{
+    margin-left: 60px;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+}
+#btn-centro{
+    margin-top: 100px;
+}
+.div-resp{
+    position: absolute;
+    top: 25px;
+    right: 150px;
+    width: 300px;
+    height: auto;
+    font-size: 22pt;
+}
+.inputs div{
+    padding: 10px 0;
+}
+.inputs-in{
+    display: flex;
+}
+
+/*Respuesta*/
+.div-resp{
+    
+}
+.campos-btn{
+    display: inline;
+}
+
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 20px;
+    display: block;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: var(--bs-white);
+}
+i{
+    font-size: 3rem;
+    color: #fff;
+    margin: 0 20px;
+}
+footer p{
+    margin: 10px 0;
+    color: white;
+}
